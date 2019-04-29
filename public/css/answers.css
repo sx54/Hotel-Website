@@ -1,0 +1,22 @@
+.answers {
+    margin-top: 8rem;
+}
+
+.answers .card {
+    margin-bottom: 1rem;
+    background: white;
+    padding: 1rem;
+    box-shadow: 4px 4px 4px #ccc;
+    border-radius: 2px;
+  
+}
+
+.answers .card h4 {
+    color: #999999 
+}
+
+.answers-count {
+    border-bottom: 1px solid;
+    margin: 1rem 0;
+    color: rgb(26, 23, 23);
+}

@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 14px;
+   
+}
+
+body {
+    background: #f5f5f5;
+}
+
+a:link, a:hover, a:visited, a:active {
+    color: inherit;
+}
+
+input:focus {
+    outline: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.75);
+    padding: .3rem;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    
+}
+
+header > div {
+    flex-shrink: 0;
+    flex: 1;
+
+}
+
+h1 {
+    display:inline-block;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    color: white;
+    font-size: 3rem;
+}
+
+ul.menu {
+    float: right;
+    list-style: none;
+    height: 100%;
+    margin: 0;
+    font-weight: bold;
+}
+
+ul.menu > li {
+    display: inline-block;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin-left: .8rem;
+}
+
+.frame {
+    background: url(../img/r2.png) no-repeat fixed center;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.search {
+    position: relative;
+    width: 40%;
+}
+
+.search input[type="text"] {
+    line-height: 3rem;
+    font-size: 1.8rem;
+    width: 100%;
+    padding: 0 .4rem;
+}
+
+.search .search-btn {
+    position: absolute;
+    top: .3rem;
+    right: .3rem;
+    width: 2.6rem;
+    height: 2.6rem;
+    border: none;
+    background: url(../img/search.png) no-repeat center, orange;
+    text-indent: -999em;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.wrapper > * {
+    width: 100%;
+}
+
+.big-show {
+    background: url(../img/rutgers.JPG) no-repeat center;
+    background-size: cover;
+    min-height: 36rem;
+    padding-top: 1px;
+}
+
+.big-show > img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.big-show div {
+    z-index: 999;
+    width: 34%;
+    position: relative;
+    left: 30%;
+    top: 20%;
+    overflow: hidden;
+}
+
+.big-show div h3 {
+    font-size: 2.6rem;
+    color: rgb;
+    font-weight: bold;
+}
+
+.big-show div p {
+    font-size: 1.8rem;
+    color: rgb(17, 17, 16);
+}
+
+.big-show div.s {
+    left: 50%; 
+    top: 20%;
+}
+
+ul.show-gallary {
+    width: 100%;
+    list-style: none;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+
+    overflow-x: scroll;
+    flex: 1;
+    padding-bottom: 2rem;
+    margin: 1rem 0;
+    padding: 0 1rem;
+}
+
+li.card {
+    max-width: 30rem;
+    min-width: 16rem;
+}
+
+.card {
+
+    display: inline-block;
+    margin: 0 1rem 0 0;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.card h4 {
+    color: red;
+}
+
+.show-gallary .img-wrapper{
+    width: 100%;
+}
+
+.card img {
+    width: 100%;
+}
